@@ -11,7 +11,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
-    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@fortawesome/react-fontawesome": "^0.2.3",
     "autoprefixer": "^10.4.21",
     "motion": "^12.23.12",
     "next": "15.4.2",
