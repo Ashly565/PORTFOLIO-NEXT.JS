@@ -17,7 +17,7 @@ function Footer({isDarkMode}) {
     mx-[10%] mt-6 py-5'>
         <p>ashly@2025.All rights reserved.</p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-            <li><a target='_blank' href="https://github.com/Ashly565">Github</a></li>
+            <li><a target='_blank' href="https://github.com/Ashly565"  >Github</a></li>
               <li><a target='_blank' href=""></a>LinkedIn</li>
         </ul>
     </div>

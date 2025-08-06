@@ -57,7 +57,7 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
             <div className=' absolute right-6 top-6' onClick={closeMenu}>
                 <Image src={ isDarkMode? assets.close_white : assets.close_black} alt='' className='w-5 cursor-pointer ' />
             </div>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#home">Home</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#about">About Me</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Work</a></li>
