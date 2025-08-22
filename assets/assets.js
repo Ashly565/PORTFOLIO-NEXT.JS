@@ -77,35 +77,30 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Portfolio',
-        description: 'web design',
-        bgImage: '/portfolio.png',
-    },
+    
     {
         title: 'Project-Fair',
         description: 'web app',
         bgImage: '/projectfair.png',
-    },
-    {
-        title: 'Ecart',
-        description: 'Web app',
-        bgImage: '/ecart.png',
+        link:'https://project-fair-mern.onrender.com/'
     },
     {
         title: 'Media-player-app',
         description: 'web app',
-        bgImage: '/mediaplayer.png',
+        bgImage: '/mediaplayer.png', 
+        link:'https://media-player-app-frontend.vercel.app/'
     },
     {
         title: 'Ecart app',
-        description: 'ecommerce',
+        description: 'e-commerce',
         bgImage: '/ecart.png',
+        link:'https://ecart-react-redux-xi.vercel.app/'
     },
     {
         title: 'Restaurant app',
         description: 'web ui',
         bgImage: '/restaurant.png',
+        link:'https://restaurant-app-thunk.vercel.app/'
     },
 
 ]

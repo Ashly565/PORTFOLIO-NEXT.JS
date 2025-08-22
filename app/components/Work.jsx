@@ -47,11 +47,14 @@ function Work({isDarkMode}) {
                  <div>
                     <h2 className='font-semibold'>{project.title}</h2>
                     <p className='text-sm text-gray-700'>{project.description}</p>
+
                 </div>
-                <div className='border rounded-full border-black w-6 aspect-square flex items-center 
+                <a href={project.link} target='_blank'
+                className='border rounded-full border-black w-6 aspect-square flex items-center 
                  justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                    <Image src={assets.send_icon} alt='send icon ' className='w-4'/>
-                </div>
+                    <Image  src={assets.send_icon} alt='send icon ' className='w-4'/>
+                   
+                </a>
                </div>
             </motion.div>
         ))}
